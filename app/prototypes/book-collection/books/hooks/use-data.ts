@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { Book } from "@/types/data";
+import { Book } from "../types/data";
 
 const TOTAL = 100;
 const rand = (v: number) => Math.floor(Math.random() * v);
@@ -13,7 +13,7 @@ export default function useData() {
     async function load() {
       setLoading(true);
       let res = await fetch(
-        "https://fakerapi.it/api/v1/books?_quantity=" + TOTAL,
+        "https://fakerapi.it/api/v1/books?_quantity=" + TOTAL
       );
       let json = await res.json();
       const data = json.data.map((v: any) => ({
