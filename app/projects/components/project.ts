@@ -16,7 +16,7 @@ export const projectsMock: Project[] = [
   },
   {
     type: "Medical Device",
-    title: "physIQ",
+    title: "PhysIQ",
     description: "xxx",
     date: "",
     technologies: "React, Typescript, NextJs",
