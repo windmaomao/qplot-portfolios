@@ -21,7 +21,6 @@ export default function Home() {
 
       <div className="flex gap-3">
         <Link
-          isExternal
           className={buttonStyles({
             color: "primary",
             radius: "full",
@@ -32,6 +31,16 @@ export default function Home() {
           Projects
         </Link>
         <Link
+          className={buttonStyles({
+            color: "secondary",
+            radius: "full",
+            variant: "shadow",
+          })}
+          href={siteConfig.links.prototypes}
+        >
+          Prototypes
+        </Link>
+        <Link
           isExternal
           className={buttonStyles({ variant: "bordered", radius: "full" })}
           href={siteConfig.links.github}
@@ -39,6 +48,11 @@ export default function Home() {
           <GithubIcon size={20} />
           GitHub
         </Link>
+      </div>
+      <div className="mt-10">
+        <Snippet>
+          You are at<Code>function Main()</Code>
+        </Snippet>
       </div>
     </section>
   );

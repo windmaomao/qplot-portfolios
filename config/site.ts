@@ -61,6 +61,7 @@ export const siteConfig = {
   ],
   links: {
     projects: "/projects",
+    prototypes: "/prototypes/book-collection",
     github: "https://github.com/nextui-org/nextui",
     twitter: "https://twitter.com/getnextui",
     docs: "https://nextui.org",
