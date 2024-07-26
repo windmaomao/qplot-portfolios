@@ -62,7 +62,7 @@ export const siteConfig = {
   links: {
     projects: "/projects",
     prototypes: "/prototypes/book-collection",
-    github: "https://github.com/nextui-org/nextui",
+    github: "https://github.com/windmaomao/qplot-portfolios",
     twitter: "https://twitter.com/getnextui",
     docs: "https://nextui.org",
     discord: "https://discord.gg/9b6yyZKmH4",
